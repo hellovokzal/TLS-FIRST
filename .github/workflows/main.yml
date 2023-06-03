@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  my_service:
+    image: my_image
+    volumes:
+      - ./start.sh:/usr/local/bin/start.sh
+    command: bash /usr/local/bin/start.sh
