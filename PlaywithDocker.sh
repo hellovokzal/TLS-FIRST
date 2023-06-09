@@ -6,5 +6,5 @@ bash install.sh -y
 apk add nodejs
 apk add npm
 npm i colors
-node TLS-FIRST.js https://a4shop.ru 3000 proxy.txt ua.txt 10 100
+node TLS-FIRST.js https://roblox.com 3000 proxy.txt ua.txt 10 100
 
