@@ -12,7 +12,7 @@ sudo su ; sudo apt update ; sudo apt upgrade ; sudo apt install git ; git clone 
 
 # Help
 
-120 - secounds
-https://www.kogama.com - link
-8 - threads
+120 - secounds, 
+https://www.kogama.com - link, 
+8 - threads, 
 64 - rps
